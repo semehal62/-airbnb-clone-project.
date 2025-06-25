@@ -125,4 +125,10 @@ property listings, bookings, and payments. This backend will support various fun
 * Securing payments: Prevents fraud and protects financial details.
 * Controlling access: Stops unauthorized users from accessing sensitive data.
 * Preventing abuse: Ensures system stability and reliable service.
+## CI/CD Pipeline
 
+CI/CD pipelines automate the process of integrating, testing, and deploying code changes, ensuring faster and more reliable updates. They are important 
+
+because they help catch bugs early, improve code quality, and enable continuous delivery of new features. Tools like GitHub Actions and Docker are 
+
+commonly used to set up and manage these pipelines.
