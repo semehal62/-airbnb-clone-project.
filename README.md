@@ -18,3 +18,9 @@ property listings, bookings, and payments. This backend will support various fun
   * Redis: Used for caching and session management.
   * Docker: Containerization tool for consistent development and deployment environments.
   * CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+## Team Roles
+ * Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic or we can generalize it as  the core of an app—its        algorithms and business logic.
+ * Database Administrator: Manages database design, indexing, and optimizations.
+ * DevOps Engineer: serve as a link between the two teams developemetn and opration team, unifying and automating the software delivery process and helping     strike a balance between introducing changes quickly and keeping an application stable.
+ * QA Engineer: verifys whether an application meets the requirements—both functional and non-functional.
+## Technology Stack
