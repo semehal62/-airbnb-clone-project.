@@ -68,7 +68,51 @@ property listings, bookings, and payments. This backend will support various fun
 * Reviews
    
    GET /reviews/ - List all reviews
-POST /reviews/ - Create a new review
-GET /reviews/{review_id}/ - Retrieve a specific review
-PUT /reviews/{review_id}/ - Update a specific review
-DELETE /reviews/{review_id}/ - Delete a specific review
+  
+   POST /reviews/ - Create a new review
+  
+   GET /reviews/{review_id}/ - Retrieve a specific review
+  
+   PUT /reviews/{review_id}/ - Update a specific review
+  
+   DELETE /reviews/{review_id}/ - Delete a specific review
+
+## Feature Breakdown
+
+1. API Documentation
+   
+   OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+
+   Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+
+   GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+
+2. User Authentication
+
+   User Authentication handles user registration, login, and profile management through endpoints /users/ and /users/{user_id}/. It enables
+   
+   users to create accounts, authenticate their identity, and manage their personal information.
+
+4. Property Management
+
+   Property managment handles creating, updating, retrieve, and delete property listings through endpoints /properties/ and /properties/{property_id}/
+
+5. Booking System
+
+   Booking system handles making , updating , and manages bookings, including check-in and check-out details through endpoints  /bookings/ and
+
+   /bookings/{booking_id}/
+
+8. Payment Processing
+ 
+   Payment Processing handles payment transactions related to bookings through  endpoint /payments/
+
+5. Review System
+
+   Review system manages and posts reviews throug the endpoints  /reviews/ and  /reviews/{review_id}/
+
+6. Database Optimizations
+    
+   Indexing: Implement indexes for fast retrieval of frequently accessed data.
+  
+   Caching: Use caching strategies to reduce database load and improve performance.
