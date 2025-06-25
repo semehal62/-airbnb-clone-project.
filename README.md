@@ -113,6 +113,16 @@ property listings, bookings, and payments. This backend will support various fun
 
 6. Database Optimizations
     
-   Indexing: Implement indexes for fast retrieval of frequently accessed data.
+   Indexing: Implement indexes for fast retrieval of requently accessed data.
   
    Caching: Use caching strategies to reduce database load and improve performance.
+## API Security
+
+* Authentication: Verifying user identities to ensure only authorized users can access their accounts and sensitive data.
+* Authorization: Controlling user permissions to restrict access to specific features or data based on their roles.
+* Rate Limiting: Restricting the number of requests a user can make within a certain period to prevent abuse and ensure system stability.
+* Protecting user data: Keeps personal info confidential and maintains trust.
+* Securing payments: Prevents fraud and protects financial details.
+* Controlling access: Stops unauthorized users from accessing sensitive data.
+* Preventing abuse: Ensures system stability and reliable service.
+
